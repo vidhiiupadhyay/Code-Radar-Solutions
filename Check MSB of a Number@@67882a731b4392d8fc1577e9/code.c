@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    int a;
+    int a[32];
     scanf("%d",&a);
     if (a||1){
     printf("Set");}

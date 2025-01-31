@@ -3,7 +3,7 @@
 int main() {
     int a[32];
     scanf("%d",&a);
-    if (a|1){
+    if (a&(1<<31)){
     printf("Set");}
     else{
         printf("Not Set");

@@ -1,14 +1,12 @@
 #include <stdio.h>
+int getnthbit(int a,int b){
+    return(a>>b)& 1;
+}
 
 int main() {
     int a,b;
     scanf("%d%d",&a,&b);
-    if(b==0 ||b==2||b==3||b==5){
-        printf("%d",1);
-    }
-    else{
-        printf("%d",0);
-    }
-    
+    int bitvalue = getnthbit(a,b);
+    printf("%d",bitvalue);
     return 0;
 }

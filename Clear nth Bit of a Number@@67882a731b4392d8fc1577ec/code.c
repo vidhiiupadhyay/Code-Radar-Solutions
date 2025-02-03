@@ -4,6 +4,7 @@ int getNthBit(int number,int n){
 }
 
 int main() {
+    int number,n;
     scanf("%d%d",&number,&n);
     int bitvalue = getNthBit(number,n);
 

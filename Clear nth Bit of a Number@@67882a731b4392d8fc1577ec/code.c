@@ -1,13 +1,14 @@
 #include <stdio.h>
-int getNthBit(int number,int n){
-    return(number>>n) &1;
+int clearNthBit(int number,int n){
+    int mask = ~(1<<n);
+    return number & mask;
 }
 
 int main() {
     int number,n;
     scanf("%d%d",&number,&n);
-    int bitvalue = getNthBit(number,n);
+    int result = clearNthBit(number,n);
 
-    printf("%d", bitvalue);
+    printf("%d", result);
     return 0;
 }

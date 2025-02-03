@@ -3,7 +3,7 @@
 int main() {
     int a,b;
     scanf("%d%d",&a,&b);
-    if(b==0 ||b==2||b==3){
+    if(b==0 ||b==2||b==3||b==5){
         printf("%d",1);
     }
     else{

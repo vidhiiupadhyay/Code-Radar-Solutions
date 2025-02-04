@@ -1,7 +1,7 @@
 #include <stdio.h>
 int findthelowestsetbitposition(int num){
     if (num==0){
-        return -1
+        return -1;
     }
     int position = 0;
 

@@ -7,7 +7,7 @@ int findthelowestsetbitposition(int num){
 
     while ((num & 1)==0){
         num >>=1;
-        position++
+        position++;
     }
     return position;
 

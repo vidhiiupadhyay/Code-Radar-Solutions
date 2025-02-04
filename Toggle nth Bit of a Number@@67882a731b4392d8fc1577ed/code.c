@@ -5,7 +5,7 @@ int toggleNthBit(int num, int n){
 
 int main() {
     int num,n;
-    scanf("%d%d", num,n);
+    scanf("%d%d", &num,&n);
     int updatednum = toggleNthBit(num,n);
     printf("%d",updatednum);
     return 0;

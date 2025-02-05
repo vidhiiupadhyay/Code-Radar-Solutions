@@ -1,12 +1,12 @@
 #include <stdio.h>
-int findthelowestsetbitposition(int num){
-    if (num==0){
+int findthelowestsetbitposition(int n){
+    if (n==0){
         return -1;
     }
     int position = 0;
 
-    while ((num & 1)==0){
-        num >>=1;
+    while ((n & 1)==0){
+        n >>=1;
         position++;
     }
     return position;

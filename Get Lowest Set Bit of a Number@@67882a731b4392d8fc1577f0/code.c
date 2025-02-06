@@ -12,7 +12,7 @@ int main(){
             a >>= 1;
         }
         printf("%d\n",position);
-        return 0;
+        
     }
-    
+    return 0;
     }

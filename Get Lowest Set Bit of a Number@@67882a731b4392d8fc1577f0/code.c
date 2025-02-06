@@ -1,27 +1,18 @@
 #include <stdio.h>
-int findthelowestsetbitposition(int n){
-    if (n==0){
-        return -1;
-    }
-    int position = 0;
-
-    while ((n & 1)==0){
-        n >>=1;
-        position++;
-    }
-    return position;
-
-}
-int main() {
-    int num;
-    scanf("%d",&num);
-    int position = findthelowestsetbitposition(num);
-    if (position  == -1){
-        printf("no set bit");
-        else{
-            printf("%d",position);
+int main(){
+    int a ;
+    scanf("%d", &a);
+    if (num==0){
+        if(a==0){
+            printf("-1\n");
+            return 0;
         }
+        int position = 0;
+        while ((a & 1)== 0){
+            a >>= 1;
+        }
+        printf("%d\n",position);
+        return 0;
     }
     
-    return 0;
-}
+    }

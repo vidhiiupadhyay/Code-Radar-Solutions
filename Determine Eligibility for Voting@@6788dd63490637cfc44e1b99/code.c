@@ -6,7 +6,9 @@ int main() {
     if(a>=19){
         printf("Eligible");
     }
-    else("Not Eligible");
+    else{
+        printf("Not Eligible")
+    };
     
     return 0;
 }

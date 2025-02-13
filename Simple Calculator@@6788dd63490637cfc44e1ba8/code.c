@@ -6,17 +6,17 @@ int main(){
 
     switch(ch){
         case'+':
-        printf("%d+%d=%d",a,b,a+b);
+        printf("%d",a+b);
         break;
         case'-':
-        printf("%d-%d=%d",a,b,a-b);
+        printf("%d",a-b);
         break;
         case'*':
-        printf("%d*%d=%d",a,b,a*b);
+        printf("%d", a*b);
         break;
         case'/':
-        if(a!=0){
-            printf("%d/%d=%d",a,b,a/b);
+        if(b!=0){
+            printf("%d",a/b);
         }else{
             printf("error");
         }

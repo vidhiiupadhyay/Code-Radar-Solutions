@@ -5,9 +5,6 @@ int main(){
     if(a==1){
         printf("Monday");
     }
-    else if(a==0){
-        printf("Invalid");
-    }
     else if(a==2){
         printf("Tuesday");
     }
@@ -23,8 +20,11 @@ int main(){
     else if(a==6){
         printf("Saturday");
     }
-    else{
+    else if(a==7){
         printf("Sunday");
+    }
+    else{
+        printf("Inavalid");
     }
     return 0;
 }

@@ -20,6 +20,10 @@ int main(){
         }else{
             printf("error");
         }
+        break;
+        default:
+        printf("invalid");
+        break;
 
     }
     return 0;

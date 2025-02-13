@@ -15,8 +15,11 @@ int main(){
         printf("%d*%d=%d",a,b,a*b);
         break;
         case'/':
-        printf("%d/%d=%d",a,b,a/b);
-        break;
+        if(b!=0){
+            printf("%d/%d=%d",a,b,a/b);
+        }else{
+            printf("error");
+        }
 
     }
     return 0;

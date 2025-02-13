@@ -5,6 +5,9 @@ int main(){
     if(a==1){
         printf("Monday");
     }
+    else if(a==0){
+        printf("Invalid");
+    }
     else if(a==2){
         printf("Tuesday");
     }

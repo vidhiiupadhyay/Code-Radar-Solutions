@@ -1,18 +1,18 @@
 #include <stdio.h>
 
 int main() {
-    int size;
+    int N;
 
-    // Ask the user for the size of the hollow square
-    printf("Enter the size of the hollow square: ");
-    scanf("%d", &size);  // Using scanf to take an integer input for the size
+    // Ask the user for the side length of the square
+    printf("Enter an integer N representing the side length of the square: ");
+    scanf("%d", &N);  // Using scanf to take an integer input for the side length
 
     // Loop through rows
-    for (int i = 0; i < size; i++) {
+    for (int i = 0; i < N; i++) {
         // Loop through columns
-        for (int j = 0; j < size; j++) {
+        for (int j = 0; j < N; j++) {
             // Print '*' for the borders and space for the inside of the square
-            if (i == 0 || i == size - 1 || j == 0 || j == size - 1) {
+            if (i == 0 || i == N - 1 || j == 0 || j == N - 1) {
                 printf("* ");
             } else {
                 printf("  ");
@@ -23,4 +23,5 @@ int main() {
 
     return 0;
 }
+
 

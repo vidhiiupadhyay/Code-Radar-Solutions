@@ -19,3 +19,11 @@ int main() {
     int size;
 
     // Ask the user for the size of the hollow square
+     printf("Enter the size of the hollow square: ");
+    scanf("%d", &size);  // Using scanf to take input for the size
+
+    // Call the function to print the hollow square
+    printHollowSquare(size);
+
+    return 0;
+}

@@ -17,11 +17,11 @@ void printHollowSquare(int size) {
 int main() {
     int size;
 
-    // Get the size of the square from the user
+    // Ask the user for the size of the hollow square
     printf("Enter the size of the hollow square: ");
-    scanf("%d", &size);
+    scanf("%d", &size);  // Using scanf to take input for the size
 
-    // Call function to print hollow square
+    // Print the hollow square
     printHollowSquare(size);
 
     return 0;

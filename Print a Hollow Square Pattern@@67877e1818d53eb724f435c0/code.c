@@ -5,7 +5,7 @@ int main() {
 
     // Ask the user for the size of the hollow square
     printf("Enter the size of the hollow square: ");
-    scanf("%d", &size);  // Using scanf to take input for the size
+    scanf("%d", &size);  // Using scanf to take an integer input for the size
 
     // Loop through rows
     for (int i = 0; i < size; i++) {
